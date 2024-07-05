@@ -19,8 +19,7 @@ function App() {
         <Reset />
         <Routes>
           <Route exact path="/" element={<Root />}>
-            <Route path="/main" element={<Main />} />
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<Main />} />
             <Route path="/about" element={<About />} />
             <Route path="/report" element={<ReportList />} />
             <Route path="/check" element={<Check />} />

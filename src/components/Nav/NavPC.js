@@ -35,7 +35,7 @@ const Linkblock = styled.div`
 function NavPC() {
   return (
     <Navbar>
-      <Link to="/main">
+      <Link to="/">
         <Logo>DOUBLE CHECK</Logo>
       </Link>
       <Navblock>

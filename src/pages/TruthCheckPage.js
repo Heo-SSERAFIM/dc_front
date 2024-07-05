@@ -37,7 +37,7 @@ function TruthCheckPage() {
           if (error.response && error.response.data) {
             console.log(error.response.data);
             alert("영상 길이가 너무 깁니다");
-            navigate("/main");
+            navigate("/");
             return; // 이 부분 추가
           }
           setError(error);

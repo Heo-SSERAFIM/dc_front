@@ -95,7 +95,7 @@ function Nav() {
         </Link>
       </Linkblock>
       <Button>
-        <Link to="/main">홈화면으로 가기</Link>
+        <Link to="/">홈화면으로 가기</Link>
       </Button>
     </>
   );
