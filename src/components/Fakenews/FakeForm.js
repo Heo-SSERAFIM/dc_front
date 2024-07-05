@@ -159,7 +159,7 @@ function FakeForm() {
         <Overlay>
           <Popup>
             <PopupInner>
-              <img src={Report}></img>
+              <img src={Report} alt="신고"></img>
               <InnerP>해당 콘텐츠를 신고하시겠습니까?</InnerP>
               <InnerP color={"#525252"}>
                 작성된 게시글은 수정 및 삭제가 불가합니다.
@@ -182,7 +182,7 @@ function FakeForm() {
         <Overlay>
           <Popup>
             <PopupInner>
-              <img src={Report}></img>
+              <img src={Report} alt="신고"></img>
               <InnerP>
                 콘텐츠 링크 주소가 잘못되었습니다.
                 <br /> 다시 입력해 주세요.
@@ -206,7 +206,7 @@ function FakeForm() {
         <Overlay>
           <Popup>
             <PopupInner>
-              <img src={Report}></img>
+              <img src={Report} alt="신고"></img>
               <InnerP>빈칸을 입력하세요.</InnerP>
 
               <div>

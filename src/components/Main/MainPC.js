@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   Img,
   Input,
-  Input2,
   FilterBox,
   InputBox,
   ResponsiveImage,
   Section,
 } from "./MainStyle";
 import search from "../../img/search.png";
-import axios from "axios";
 import mainImg from "../../img/main.svg";
 import Filter from "../Trends/Filter";
 import FilterMobile from "../Trends/FilterMobile";

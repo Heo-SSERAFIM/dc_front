@@ -1,5 +1,4 @@
 import { styled, css } from "styled-components";
-import Filter from "./../Trends/FilterMobile";
 
 const responsiveWidth = css`
   @media screen and (max-width: 834px) {

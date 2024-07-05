@@ -15,6 +15,7 @@ function Section3() {
           src={hmm}
           width={"13%"}
           style={{ position: "absolute", bottom: "10%", right: "2%" }}
+          alt="hmm"
         />
       </div>
       <D3iv src={use} />
